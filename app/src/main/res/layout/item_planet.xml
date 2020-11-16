@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPlanetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name" />
+
+        <TextView
+            android:id="@+id/txtRotationPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_rotation_period" />
+
+        <TextView
+            android:id="@+id/txtOrbitalPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_orbital_period" />
+
+        <TextView
+            android:id="@+id/txtDiameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_diameter" />
+
+        <TextView
+            android:id="@+id/txtClimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_climate" />
+
+        <TextView
+            android:id="@+id/txtGravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_gravity" />
+
+        <TextView
+            android:id="@+id/txtTerrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_terrain" />
+
+        <TextView
+            android:id="@+id/txtSurfaceWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_surface_water" />
+
+        <TextView
+            android:id="@+id/txtPopulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_population" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
